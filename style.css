@@ -488,14 +488,19 @@ nav a.active {
 }
 
 .projeto-tech span {
-    font-size: 1.2rem;
-    padding: 0.5rem 1.1rem;
+    font-size: 1.3rem;
+    padding: 0.6rem 1.2rem;
     border: 1px solid #b74b4b;
     border-radius: 2rem;
     color: #b74b4b;
+    transition: 0.2s ease;
 }
 
-/* Links */
+.projeto-tech span:hover {
+    background-color: #b74b4b;
+    color: black;
+}
+
 .projeto-links {
     display: flex;
     justify-content: center;
